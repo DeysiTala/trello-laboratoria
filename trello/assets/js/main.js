@@ -14,6 +14,7 @@ function trelloAdd(){
 				var buttonT= document.createElement("button");
 				var contenido = document.createTextNode("Add to target");
 				buttonT.setAttribute("id", "boton1");
+
 				
 				buttonT.appendChild(contenido);
 			buttonContainer.appendChild(buttonT);
@@ -62,6 +63,7 @@ function trelloAdd(){
 								}
 								var textoTarjeta = document.getElementById("tarjeta-input").value;
 								var impresionTarjeta = document.getElementById("click-boton-tarjeta");
+
 								var contenedorTarjeta = document.createElement("li");
 								var tarjeta = document.createTextNode(textoTarjeta);
 								contenedorTarjeta.appendChild(tarjeta);
@@ -79,3 +81,10 @@ function trelloAdd(){
 	
 }
 trelloAdd();
+
+function eliminar()
+{
+var list = document.getElementById("click-boton-tarjeta");  
+list.removeChild(list.childNodes[0]);
+}
+
