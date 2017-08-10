@@ -1,0 +1,87 @@
+*{
+	background-image:url('https://s3-eu-west-1.amazonaws.com/images.danb.me/trello-backgrounds/pink.jpg');
+	font-family: 'Indie Flower', cursive;
+  
+}
+
+h1{
+    font-size: 330%;
+    
+}
+
+header {
+	width:100%; 
+	overflow:hidden;
+ 	background: rgba(0,0,0,.15)
+	margin-bottom:20px;
+    
+}
+
+.text-titulo{
+    color: white;
+}
+#lista{
+    color:white;
+}
+#input-despegable{
+	background-color: blue;
+	padding: 20px;
+}
+#ingresarDatos{
+
+   background: silver;
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 30px;
+   padding: 5px;
+}
+
+#tarjeta-input{
+    background: silver;
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 12px;
+   padding: 5px;
+}
+}
+#boton1{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #e8e1e1;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+#boton2{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #e8e1e1;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.caja {
+	background-color: green;
+	padding: 10px;
+}
+.
+}
+.lista button {
+	display: block;
+}
+
+#ingresarDatos{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
